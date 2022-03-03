@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="left">
+            <audio autoplay class="player">
+                <source src="https://edyoda.s3.ap-south-1.amazonaws.com/public/musicfiles/without-you.mp3" type="audio/mp3">
+              </audio>
+            <div class="music-wrap">
+                <img class="music-img" src="https://m.media-amazon.com/images/I/81mNRm3F6KL._SS500_.jpg">
+                <div class="music-info">
+                    <h1>Without You</h1>
+                    <h2>Avicii</h2>
+                </div>
+            </div>
+            <div class="control-wrap">
+                <div class="progress">
+                    <div class="pduration">
+
+                    </div>
+                </div>
+                <div class="control-btn">
+                    <button class="prev"><i class="fas fa-step-backward"></i></button>
+                    <button class="play"><i class="fas fa-play"></i></button>
+                    <button class="next"><i class="fas fa-step-forward"></i></button>
+                </div>
+                <div class="volume-control">
+                    <h1>Volume: 10%</h1>
+                    <button class="volm"><i class="fas fa-minus"></i></button>
+                    <button class="volp"><i class="fas fa-plus"></i></button>
+                    <button class="volmute"><i class="fas fa-volume-mute"></i></button>
+
+                </div>
+        </div>
+    </div>
+        <div class="right">
+            <ul class="unlist">
+                <!-- <li class="song-list">
+                    <img src="https://m.media-amazon.com/images/I/81mNRm3F6KL._SS500_.jpg" alt="">
+                    <h1>Without You</h1>
+                </li> -->
+
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>
